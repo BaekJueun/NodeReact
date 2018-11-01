@@ -1,21 +1,18 @@
 import React, {Component,Fragment} from 'react';
-import Blend from './Blend';
-import Test from './Test';
-import Nature from './Nature';
+import Header from './Header';
+import Container from './Container';
+import Footer from './Footer';
 
-class App extends Component {
+class App extends Component{
     render(){
         return(
             <Fragment>
-                <div>App</div>
-                <Blend />
-                <Test />
-                <Nature />
+                <Header />
+                <Container />
+                <Footer />
             </Fragment>
-            
-        ) 
+        )
     }
-}
-
+};
 
 export default App;
