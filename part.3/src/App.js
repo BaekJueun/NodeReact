@@ -1,8 +1,19 @@
-import React from 'react';
+import React, {Component,Fragment} from 'react';
+import Blend from './Blend';
+import Test from './Test';
+import Nature from './Nature';
 
-class App extends React.Component {
+class App extends Component {
     render(){
-        return <h1>App React Start</h1>
+        return(
+            <Fragment>
+                <div>App</div>
+                <Blend />
+                <Test />
+                <Nature />
+            </Fragment>
+            
+        ) 
     }
 }
 
