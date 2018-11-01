@@ -20,4 +20,7 @@ table {border-collapse:collapse; border-spacing:0}
 #header {position:relative; padding:15px 0; text-align:center}
 #header .gnb li {display:inline-block; margin:0 5px; font-size:15px}
 
+#container .count {}
+#container .count button {display:inline-block; width:100px; height:30px; margin:0 5px; font-size:22px; color:#fff; background:blue}
+
 #footer {position:relative; padding:15px 0; text-align:center; color:#ccc; background:#121212}
