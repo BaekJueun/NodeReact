@@ -1,4 +1,11 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import App from './App';
 
-ReactDOM.render(<h1>Hello React</h1>);
+/*function Hello(){
+    return <h1>React Start</h1>
+}*/
+
+ReactDOM.render(
+    <App />,document.getElementById('root')
+);
