@@ -1,4 +1,5 @@
 import React, {Component,Fragment} from 'react';
+import Side from './Side';
 
 class Container extends Component{
     state = {
@@ -20,6 +21,7 @@ class Container extends Component{
                 <div id="container">
                     <div className="inner">
                         <div className="mainVisual">MainVisual</div>
+                        <Side />
                         <div className="count">
                             <h2>카운터</h2>
                             <p>값 : {this.state.num} </p>
